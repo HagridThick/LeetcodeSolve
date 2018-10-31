@@ -10,4 +10,3 @@ class Solution:
             pre = spl[0].split('+')
             unrepeat.add(pre[0].replace('.','') + spl[1])
         return len(unrepeat)
-
